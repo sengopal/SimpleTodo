@@ -15,6 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name="com.codepath.simpletodo.EditItemActivity"
+            android:label="@string/title_activity_edit_item"
+            android:theme="@style/AppTheme"
+            android:parentActivityName="com.codepath.simpletodo.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.codepath.simpletodo.MainActivity" />
+        </activity>
+
     </application>
 
 </manifest>
